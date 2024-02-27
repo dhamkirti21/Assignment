@@ -31,7 +31,7 @@ const Post = (props: postProps) => {
             <div className='text-left text-slate-700 p-2 max-w-sm leading-4'>
                 <p className='text-xs'><span className='font-semibold'>{props.title}- </span>{props.description}</p>
                 {
-                    props.offer && <p className="p-1 text-xs w-1/6 text-center mt-1 text-cyan-800 bg-[#F3F9FF] rounded-md whitespace-nowrap">
+                    (props.offer !== 0) && <p className="p-1 text-xs w-1/6 text-center mt-1 text-cyan-800 bg-[#F3F9FF] rounded-md whitespace-nowrap">
                         {props.offer}% Off
                     </p>
                 }
@@ -40,7 +40,7 @@ const Post = (props: postProps) => {
                     {props.mainHighlight}
                 </p>
                 {
-                    props.lovereason && <Reason reason={props.lovereason} />
+                    (props.lovereason.length !== 0) && <Reason reason={props.lovereason} />
                 }
                 <p className="text-xs pt-2 flex items-center text-blue-500">
                     Show More
