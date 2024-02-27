@@ -6,8 +6,8 @@ Welcome to the Radiant Riches LLC Next.js project! This project is built using N
 
 Before getting started, ensure you have the following installed on your machine:
 
-- Node.js: [Link to Node.js download page]
-- npm: [Link to npm download page]
+- Node.js 18.x
+- npm: 10.x
 
 ## Installation
 
