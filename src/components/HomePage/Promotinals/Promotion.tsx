@@ -7,8 +7,9 @@ const Promotion = () => {
             <p className="text-xl">Related deals you might like for</p>
             <div className="block md:flex sm:flex gap-4 mt-6">
                 {
-                    promotions.map((promotion) => {
+                    promotions.map((promotion, index) => {
                         return <PromotinalPost
+                            key={index}
                             imgUrl={promotion.imgUrl}
                             limitedOffer={promotion.limitedOffer}
                             title={promotion.title}
