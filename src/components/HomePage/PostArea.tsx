@@ -3,7 +3,7 @@ import Info from "./FeedComponents/Info";
 import Tools from "./FeedComponents/Tools";
 import Pagination from "./FeedComponents/Pagination";
 import Post from "./Post";
-import { Data } from "@/constants/postData";
+import { posts } from "@/constants/postData";
 import Promotion from "./Promotinals/Promotion";
 import Subscribe from "./Subscribe";
 
@@ -22,9 +22,9 @@ const PostArea = () => {
                     <Pagination />
                     <div className="p-6">
                         {
-                            Data.map((data, index) => {
+                            posts.map((data, index) => {
                                 return <Post
-                                    serialno={data.serialNo}
+                                    serialno={data.serialno}
                                     title={data.title}
                                     rating={data.rating}
                                     offer={data.offer}

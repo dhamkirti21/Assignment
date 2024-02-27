@@ -12,7 +12,6 @@ export interface postProps {
     mainHighlight: Highlight,
     lovereason: string[]
     offer: number,
-    specialBadge: ReactNode
 }
 
 export interface promotionalProps {
