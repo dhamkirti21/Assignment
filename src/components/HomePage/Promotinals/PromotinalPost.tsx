@@ -20,7 +20,7 @@ const PromotinalPost = (props: promotionalProps) => {
                 <p className="text-xs text-red-400  p-1 pt-2">{`(${props.offerPercentage}% Off)`}</p>
             </div>
             <div>
-                <button className='h-10 mt-1 w-full text-white bg-[#1B88F4] rounded-xl' >View Deal</button>
+                <button className='h-10 mt-1 w-full text-white hover:bg-[#68a3dd] bg-[#1B88F4] rounded-xl' >View Deal</button>
             </div>
         </div>
     )

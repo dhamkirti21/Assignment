@@ -13,7 +13,7 @@ const Subscribe = () => {
                     id="Search"
                     className="outline-1 rounded-l-xl border w-3/4 border-1 focus:outline-0 h-[50px] placeholder:pl-4 "
                 />
-                <button className='w-1/4 h-[50px] text-white bg-[#1B88F4] rounded-r-xl' >Sign Up</button>
+                <button className='w-1/4 h-[50px] text-white hover:bg-[#78afe7] bg-[#1B88F4] rounded-r-xl' >Sign Up</button>
             </div>
         </div>
     )

@@ -54,7 +54,7 @@ const Post = (props: postProps) => {
                     <Star rating={props.rating} />
                 </div>
                 <div className='mt-3 md:mt-0 sm:mt-0'>
-                    <button className='h-16 md:h-10 sm:h-10 w-full md:w-40 sm:w-40 text-white bg-[#1B88F4] rounded-xl' >View</button>
+                    <button className='h-16 md:h-10 sm:h-10 w-full md:w-40 sm:w-40 text-white hover:bg-[#68a3dd] bg-[#1B88F4] rounded-xl' >View</button>
                 </div>
             </div>
 
